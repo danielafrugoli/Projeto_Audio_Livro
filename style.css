@@ -1,0 +1,44 @@
+body {
+    background-color:#3b1566;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d6d6ea;
+}
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+
+}
+
+#informacoes-faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 0 0rem 0;
+    font-size: 1.5rem;
+}
+
+#anterior, #proximo {
+    font-size: 2rem;
+}
+
+#play-pause {
+    font-size: 3rem;
+}
+
+#container-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
